@@ -15,24 +15,30 @@
 		<title>Daria&Aleksander</title>
 	</head>
 	<body>
-		<nav class="nav">
-			<div class="nav__container container">
-				<div class="nav__logo">Daria&Aleksander</div>
-				<div class="nav__menu">
-					<input type="checkbox" name="" id="" />
-					<div class="nav__burger"></div>
-					<div class="nav__burger"></div>
-					<div class="nav__burger"></div>
-					<ul class="nav__items">
-						<li>Ślub i wesele</li>
-						<li>Agenda</li>
-						<li>Informacje</li>
-						<li>Kontakt</li>
-						<li>Zdjęcia</li>
-						<li>Prezenty</li>
-						<li>Inne</li>
-					</ul>
+		<nav>
+			<div class="nav-center">
+				<!-- nav header -->
+				<div class="nav-header">
+					<h4 class="logo">Daria<i class="fa-solid fa-heart"></i>Aleksander</h4>
+					<button type="button" class="nav-toggle">
+						<i class="fas fa-bars"></i>
+					</button>
 				</div>
+				<!-- links -->
+				<ul class="links">
+					<li>
+						<a href="#slub">Ślub i Wesele</a>
+					</li>
+					<li>
+						<a href="#agenda">Agenda</a>
+					</li>
+					<li>
+						<a href="#informacje">Informacje</a>
+					</li>
+					<li>
+						<a href="#zdjecia">Zdjęcia</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 		<header class="header">
@@ -62,7 +68,7 @@
 			<i class="fa-solid fa-arrow-down header__arrowDown"></i>
 		</header>
 		<main>
-			<section class="information section">
+			<section id="slub" class="information section">
 				<p class="information__h1 h1">Ślub i Wesele</p>
 				<div class="information__container container">
 					<div class="information__details">
@@ -81,8 +87,10 @@
 							</div>
 							<p><i class="fa-solid fa-phone"></i>Pan Młody: 665 669 885</p>
 							<p><i class="fa-solid fa-phone"></i>Panna Młoda: 665 804 160</p>
-							<p><i class="fa-solid fa-phone"></i>Świadek Łukasz:</p>
-							<p><i class="fa-solid fa-phone"></i>Świadek Radek:</p>
+							<p>
+								<i class="fa-solid fa-phone"></i>Świadek Łukasz: 607 443 543
+							</p>
+							<p><i class="fa-solid fa-phone"></i>Świadek Radek: 724 496 733</p>
 						</div>
 						<div class="information__map">
 							<div class="mapouter">
@@ -98,7 +106,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section timeline">
+			<section id="agenda" class="section timeline">
 				<p class="h1">Agenda</p>
 				<div class="section-center timeline-center">
 					<article class="timeline-item">
@@ -138,7 +146,7 @@
 					</article>
 				</div>
 			</section>
-			<section class="section goodToKnow">
+			<section id="informacje" class="section goodToKnow">
 				<p class="h1">Informacje</p>
 				<div class="goodToKnow__container container">
 					<div class="goodToKnow__box box">
@@ -195,7 +203,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="photo__section section">
+			<section id="zdjecia" class="photo__section section">
 				<p class="h1">Zdjęcia</p>
 				<div class="photo__container container">
 					<div class="img">
@@ -214,13 +222,10 @@
 		<footer class="section footer">
 			<!-- footer links -->
 			<div class="footer-links">
-				<a href="#home" class="footer-link scroll-link">home</a>
-				<a href="#about" class="footer-link scroll-link">about</a>
-				<a href="#services" class="footer-link scroll-link">services</a>
-				<a href="#featured" class="footer-link scroll-link">featured</a>
-				<a href="#gallery" class="footer-link scroll-link" scroll-link
-					>gallery</a
-				>
+				<a href="#slub" class="footer-link scroll-link">Ślub i Wesele</a>
+				<a href="#agenda" class="footer-link scroll-link">Agenda</a>
+				<a href="#informacje" class="footer-link scroll-link">Informacje</a>
+				<a href="#zdjecia" class="footer-link scroll-link">Zdjęcia</a>
 			</div>
 			<p class="copyright">
 				copyright &copy; Hajk Dallakjan
