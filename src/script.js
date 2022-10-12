@@ -185,37 +185,13 @@
 	// Initialise the examples
 	var currentYear = new Date().getFullYear();
 
-	// FlipClock 1 Example: My Birthday
 	new FlipClock(document.getElementById('flipclock-1'), {
 		endDate: new Date(currentYear + 1, 06, 16),
 		labels: {
-			days: 'Days',
-			hours: 'Hours',
-			minutes: 'Minutes',
-			seconds: 'Seconds',
-		},
-	});
-
-	// FlipClock 2 Example: Christmas
-	new FlipClock(document.getElementById('flipclock-2'), {
-		endDate: new Date(currentYear, 11, 24),
-		labels: {
-			days: 'Tage',
-			hours: 'Stunden',
-			minutes: 'Minuten',
-			seconds: 'Sekunden',
-		},
-	});
-
-	// FlipClock 3 Example: New Years' Eve
-	const newYearsEve = new Date(currentYear, 11, 31);
-	new FlipClock(document.getElementById('flipclock-3'), {
-		endDate: newYearsEve,
-		labels: {
-			days: 'Journées',
-			hours: 'heures',
-			minutes: 'Minutes',
-			seconds: 'Secondes',
+			days: 'Dni',
+			hours: 'Godziny',
+			minutes: 'Minuty',
+			seconds: 'Sekundy',
 		},
 	});
 })();

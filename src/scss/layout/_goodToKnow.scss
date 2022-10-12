@@ -1,0 +1,23 @@
+.goodToKnow {
+	background-color: $color-brown;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(280px, 400px));
+		grid-gap: 1rem;
+		color: $color-brown;
+		justify-content: center;
+	}
+
+	p {
+		padding: 2rem;
+	}
+
+	i {
+		padding: 2rem;
+		font-size: 3rem;
+	}
+}

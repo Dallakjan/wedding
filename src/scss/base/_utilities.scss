@@ -7,4 +7,20 @@
 
 .h1 {
 	font-size: 4rem;
+	text-align: center;
+	padding-bottom: 5rem;
+	padding-top: 3rem;
+}
+
+.section {
+	padding: 5rem 1rem;
+}
+
+.box {
+	background-color: $color-white;
+	box-shadow: -1px 20px 24px -15px rgb(37, 37, 40);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2rem;
 }

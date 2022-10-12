@@ -1,9 +1,14 @@
 .header {
-	height: calc(100vh - 7rem);
+	height: calc(100vh - 5.5rem);
 	flex-direction: column;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	font-style: italic;
+
+	.leaf::after {
+		color: $color-brown;
+	}
 
 	div:first-of-type {
 		text-align: center;
@@ -26,6 +31,7 @@
 		max-height: 30rem;
 		max-width: 50rem;
 		text-align: center;
+		margin-top: -5rem;
 
 		img {
 			max-width: 100%;
@@ -39,7 +45,11 @@
 
 	svg {
 		max-width: 55rem;
-		height: 15rem;
-		margin-top: 5rem;
+		height: 10rem;
+		padding-top: 3rem;
+
+		@media (max-width: 550px) {
+			padding-top: 0rem;
+		}
 	}
 }

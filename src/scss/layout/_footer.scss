@@ -1,0 +1,44 @@
+.footer {
+	background: $color-brown;
+	color: $color-white;
+	text-align: center;
+	padding-left: 2rem;
+	padding-right: 2rem;
+
+	&-links,
+	&-icons {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1.5rem;
+		flex-wrap: wrap;
+	}
+	&-link {
+		color: var(--mainWhite);
+		text-transform: capitalize;
+		font-size: 2rem;
+		margin-right: 1rem;
+		letter-spacing: var(--mainSpacing);
+		transition: var(--mainTransition);
+	}
+	&-link:hover {
+		color: var(--primaryColor);
+	}
+	&-icon {
+		font-size: 2rem;
+		margin-right: 1rem;
+		color: var(--mainWhite);
+		transition: var(--mainTransition);
+	}
+	&-icon:hover {
+		color: var(--primaryColor);
+	}
+	.copyright {
+		text-transform: capitalize;
+		letter-spacing: 0.1rem;
+		font-size: 1.5rem;
+
+		.fa-heart {
+			color: red;
+		}
+	}
+}

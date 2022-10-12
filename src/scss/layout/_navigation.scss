@@ -56,8 +56,8 @@
 
 			@media (max-width: 980px) {
 				&:checked ~ .nav__items {
-					left: 30%;
-					opacity: 1;
+					display: none;
+					animation: slideRight 1s linear;
 				}
 			}
 		}
@@ -75,22 +75,22 @@
 		display: flex;
 		justify-content: space-evenly;
 		width: 100%;
-		transition: all 0.4s linear;
+		animation: slideLeft 1s linear;
+		display: none;
 
 		@media (max-width: 980px) {
-			position: absolute;
-			left: 200%;
-			top: 300%;
-			flex-direction: column;
-			justify-content: space-around;
-			// height: 40rem;
-			width: 100%;
-			align-items: center;
-			opacity: 0;
-			z-index: 2;
-			background-color: black;
-			color: $color-white;
-			text-align: center;
+			// position: absolute;
+			// top: 5rem;
+			// left: -550%;
+			// flex-direction: column;
+			// justify-content: space-around;
+			// min-width: 32rem;
+			// align-items: center;
+			// z-index: 2;
+			// background-color: black;
+			// color: $color-white;
+			// text-align: center;
+			display: none;
 		}
 
 		li {
