@@ -1,10 +1,8 @@
 .nav {
-	padding: 3rem 0;
+	padding-top: 3rem;
 	font-size: 2rem;
 	font-style: italic;
 	box-shadow: 1px 23px 4px -22px rgba(66, 68, 90, 1);
-	position: fixed;
-	width: 100vw;
 
 	&__container {
 		display: flex;
@@ -85,16 +83,24 @@
 			top: 300%;
 			flex-direction: column;
 			justify-content: space-around;
-			height: 40rem;
+			// height: 40rem;
 			width: 100%;
 			align-items: center;
 			opacity: 0;
 			z-index: 2;
+			background-color: black;
+			color: $color-white;
+			text-align: center;
 		}
 
 		li {
 			cursor: pointer;
 			position: relative;
+
+			@media (max-width: 980px) {
+				width: 100%;
+				padding: 2rem 0;
+			}
 
 			&::after {
 				content: '';
@@ -108,6 +114,12 @@
 
 				@media (max-width: 980px) {
 					display: none;
+				}
+			}
+
+			&:hover {
+				@media (max-width: 980px) {
+					background-color: $color-brown;
 				}
 			}
 

@@ -1,0 +1,45 @@
+.header {
+	height: calc(100vh - 7rem);
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	div:first-of-type {
+		text-align: center;
+	}
+
+	&__h1 {
+		margin-bottom: 2rem;
+	}
+
+	&__h1,
+	&__countdown,
+	&__arrowDown,
+	&__imgContianer,
+	&__img,
+	svg {
+		animation: popUp 1s linear;
+	}
+
+	&__imgContainer {
+		max-height: 30rem;
+		max-width: 50rem;
+		text-align: center;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	&__arrowDown {
+		font-size: 3rem;
+		animation: arrow 1.5s linear infinite;
+	}
+
+	svg {
+		max-width: 55rem;
+		height: 15rem;
+		margin-top: 5rem;
+	}
+}
