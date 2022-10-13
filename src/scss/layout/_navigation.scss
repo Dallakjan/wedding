@@ -8,6 +8,15 @@ nav {
 	position: fixed;
 	z-index: 10000;
 }
+
+.nav__imgContainer {
+	max-width: 22rem;
+
+	img {
+		width: 100%;
+	}
+}
+
 .nav-header {
 	display: flex;
 	align-items: center;

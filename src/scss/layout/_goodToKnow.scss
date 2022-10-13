@@ -1,6 +1,6 @@
 .goodToKnow {
-	background-color: $color-brown;
-	color: white;
+	background-color: $color-white;
+	color: $color-brown;
 	font-size: 2rem;
 	text-align: center;
 
@@ -10,6 +10,16 @@
 		grid-gap: 1rem;
 		color: $color-brown;
 		justify-content: center;
+
+		.check {
+			@media screen and (min-width: 800px) {
+				grid-column-start: 1;
+				grid-column-end: 3;
+			}
+
+			font-weight: 700;
+			margin-bottom: 2rem;
+		}
 	}
 
 	p {

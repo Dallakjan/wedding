@@ -5,6 +5,7 @@
 	justify-content: space-around;
 	align-items: center;
 	font-style: italic;
+	background-color: #fcfdf5;
 
 	.leaf::after {
 		color: $color-brown;
@@ -15,7 +16,7 @@
 	}
 
 	&__h1 {
-		margin-bottom: 2rem;
+		margin-top: 5rem;
 	}
 
 	&__h1,
@@ -23,15 +24,16 @@
 	&__arrowDown,
 	&__imgContianer,
 	&__img,
-	svg {
+	img {
 		animation: popUp 1s linear;
 	}
 
 	&__imgContainer {
 		max-height: 30rem;
-		max-width: 50rem;
+		max-width: 40rem;
 		text-align: center;
 		margin-top: -5rem;
+		margin-bottom: 4rem;
 
 		img {
 			max-width: 100%;
@@ -43,13 +45,13 @@
 		animation: arrow 1.5s linear infinite;
 	}
 
-	svg {
-		max-width: 55rem;
-		height: 10rem;
-		padding-top: 3rem;
+	#flower {
+		margin: 0 auto;
+		margin-top: 8rem;
+		max-width: 20rem;
 
-		@media (max-width: 550px) {
-			padding-top: 0rem;
+		@media (max-width: 980px) {
+			margin: 3rem auto;
 		}
 	}
 }
