@@ -159,7 +159,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  overflow-x: hidden; }
 
 a {
   color: #b69673; }
@@ -412,11 +413,11 @@ a {
     margin-bottom: 4rem; }
     @media (min-width: 980px) {
       .header__imgContainer {
-        max-width: 35rem;
+        max-width: 30rem;
         margin-bottom: 0; } }
     @media (max-width: 600px) {
       .header__imgContainer {
-        max-width: 25rem;
+        max-width: 20rem;
         margin-top: 1rem;
         margin-bottom: 1rem; } }
     .header__imgContainer img {
@@ -427,11 +428,8 @@ a {
   .header #flower {
     margin: 0 auto;
     margin-top: 4rem;
-    margin-bottom: 1rem;
-    max-width: 20rem; }
-    @media (min-width: 980px) {
-      .header #flower {
-        margin: 7rem auto 0 auto; } }
+    margin-bottom: 2rem;
+    max-width: 15rem; }
     @media (max-width: 600px) {
       .header #flower {
         margin: 1rem auto; } }
