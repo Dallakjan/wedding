@@ -371,7 +371,8 @@ a {
     font-size: 2rem;
     margin-right: 1rem;
     letter-spacing: var(--mainSpacing);
-    transition: var(--mainTransition); }
+    transition: var(--mainTransition);
+    margin-bottom: 1rem; }
   .footer-link:hover {
     color: var(--primaryColor); }
   .footer-icon {
