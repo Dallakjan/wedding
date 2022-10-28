@@ -429,11 +429,12 @@ a {
   .header #flower {
     margin: 0 auto;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     max-width: 15rem; }
     @media (max-width: 600px) {
       .header #flower {
-        margin: 1rem auto; } }
+        margin: 1rem auto;
+        margin-bottom: 2rem; } }
 
 .information {
   background-color: #b69673;
@@ -659,6 +660,8 @@ nav {
           grid-column-end: 3; } }
   .goodToKnow p {
     padding: 2rem; }
+  .goodToKnow a {
+    padding-right: 6rem; }
   .goodToKnow i {
     padding: 2rem;
     font-size: 3rem; }
