@@ -186,7 +186,7 @@
 	var currentYear = new Date().getFullYear();
 
 	new FlipClock(document.getElementById('flipclock-1'), {
-		endDate: new Date(currentYear + 1, 06, 16),
+		endDate: new Date(2023, 05, 16),
 		labels: {
 			days: 'Dni',
 			hours: 'Godziny',
